@@ -1,0 +1,12 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+@media print {
+  h1,
+  #controls {
+    display: none;
+  }
+
+  #output {
+    display: block;
+  }
+}
