@@ -65,7 +65,7 @@
 
   <div id="output" v-if="costs.length">
     <h3>Summary:</h3>
-    <p>There are {{daysBetween}} days between <em>{{this.start.toDateString()}}</em> and <em>{{this.end.toDateString()}}</em>.</p>
+    <p>There are {{daysBetween}} days from <em>{{this.start.toDateString()}}</em> to <em>{{this.end.toDateString()}}</em>.</p>
     <table class="table table-striped table-dark">
       <thead>
         <tr>
