@@ -13,7 +13,7 @@ class DayCounter {
   }
 
   daysBetween() {
-    return Math.floor((this.end - this.start) / 864e5);
+    return Math.floor((this.end - this.start) / 864e5) + 1;
   }
 
   extraDays(certainDays) {
